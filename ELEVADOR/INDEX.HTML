@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="building">
+        <div class="floor" id="floor-3">
+            <button onclick="callElevator(3)">Chamar Elevador</button>
+        </div>
+        <div class="floor" id="floor-2">
+            <button onclick="callElevator(2)">Chamar Elevador</button>
+        </div>
+        <div class="floor" id="floor-1">
+            <button onclick="callElevator(1)">Chamar Elevador</button>
+        </div>
+        <div class="floor" id="floor-0">
+            <button onclick="callElevator(0)">Chamar Elevador</button>
+        </div>
+        <div class="elevator" id="elevator">
+            <div class="doors" id="doors"></div>
+            <div class="panel" id="panel">
+                <button onclick="callElevator(3)">4</button>
+                <button onclick="callElevator(2)">3</button>
+                <button onclick="callElevator(1)">2</button>
+                <button onclick="callElevator(0)">T</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
